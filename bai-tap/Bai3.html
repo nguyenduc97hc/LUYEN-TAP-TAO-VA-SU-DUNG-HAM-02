@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giai thừa</title>
+</head>
+<body>
+    <script>
+        function giaiThua(n) {
+
+            let giaithua =1;
+            for (let i=2;i<=n;i++){
+                giaithua = giaithua*i;
+            }
+            return giaithua;
+        }
+        let number = parseInt(prompt("Nhâp n"));
+        ketqua = giaiThua(number);
+        alert(ketqua);
+    </script>
+</body>
+</html>
